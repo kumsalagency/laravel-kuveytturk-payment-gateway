@@ -1,5 +1,5 @@
 {
-    "name": "kumsalagency/kuveytturk-payment-gateway",
+    "name": "kumsalagency/laravel-kuveytturk-payment-gateway",
     "description": "Kuveyt Türk Participation Bank Payment ",
     "license": "MIT",
     "authors": [
@@ -17,7 +17,7 @@
         "php": ">=7.2.0",
         "ext-soap": "*",
         "illuminate/http": "~5.8.0|^6.0|^7.0",
-        "guzzlehttp/guzzle": "^7.0",
+        "guzzlehttp/guzzle": "^6.0|^7.0",
         "kumsalagency/payment": "*"
     },
     "extra": {
