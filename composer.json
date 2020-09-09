@@ -18,7 +18,8 @@
         "ext-soap": "*",
         "illuminate/http": "~5.8.0|^6.0|^7.0",
         "guzzlehttp/guzzle": "^6.0|^7.0",
-        "kumsalagency/payment": "*"
+        "kumsalagency/laravel-payment": "*",
+        "ext-simplexml": "*"
     },
     "extra": {
         "branch-alias": {
@@ -38,7 +39,7 @@
     "repositories": [
         {
             "type": "path",
-            "url": "../payment"
+            "url": "../laravel-payment"
         }
     ]
 }
