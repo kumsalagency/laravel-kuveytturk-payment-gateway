@@ -18,7 +18,7 @@
         "ext-soap": "*",
         "illuminate/http": "~5.8.0|^6.0|^7.0",
         "guzzlehttp/guzzle": "^6.0|^7.0",
-        "kumsalagency/laravel-payment": "*",
+        "kumsalagency/laravel-payment": "^1.0",
         "ext-simplexml": "*"
     },
     "extra": {
