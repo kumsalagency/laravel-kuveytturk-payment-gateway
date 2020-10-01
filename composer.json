@@ -1,6 +1,6 @@
 {
     "name": "kumsalagency/laravel-kuveytturk-payment-gateway",
-    "description": "Kuveyt Türk Participation Bank Payment ",
+    "description": "Kuveyt Türk Participation Bank Payment Gateway",
     "license": "MIT",
     "authors": [
         {
@@ -16,7 +16,7 @@
     "require": {
         "php": ">=7.2.0",
         "ext-soap": "*",
-        "illuminate/http": "~5.8.0|^6.0|^7.0",
+        "illuminate/http": "~5.8.0|^6.0|^7.0|^8.0",
         "guzzlehttp/guzzle": "^6.0|^7.0",
         "kumsalagency/laravel-payment": "^1.0",
         "ext-simplexml": "*"
@@ -35,11 +35,5 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../laravel-payment"
-        }
-    ]
+    "prefer-stable": true
 }
