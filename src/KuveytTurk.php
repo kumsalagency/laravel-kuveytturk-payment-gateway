@@ -61,7 +61,7 @@ class KuveytTurk extends PaymentGateway
                     'FailUrl' => $this->failUrl,
                     'CardNumber' => $this->cardNumber,
                     'CardExpireDateYear' => Str::substr((string) $this->cardExpireDateYear,-2),
-                    'CardExpireDateMonth' => Str::padLeft((string) $this->cardExpireDateYear,2,'0'),
+                    'CardExpireDateMonth' => Str::padLeft((string) $this->cardExpireDateMonth,2,'0'),
                     'CardCVV2' => $this->cardCVV2,
                     'CardHolderName' => $this->cardHolderName,
                     'CardType' => $this->cardType ?? 'Visa',
